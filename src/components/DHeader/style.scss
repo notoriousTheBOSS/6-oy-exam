@@ -1,0 +1,92 @@
+.dashboardheader {
+    background-color: white;
+    z-index: 20;
+    box-shadow: 0 0 1px 0 black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    .header-wrapper {
+        height: 70px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .header-right {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            .header-avatar {
+                display: flex;
+                position: relative;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+                .header-avatar-p {
+                    font-size: 18px;
+                    color: #0963eb;
+                    max-width: 200px;
+                    width: 100%;
+                }
+                .header-dropdown {
+                    padding: 10px 20px;
+                    border-radius: 8px;
+                    z-index: 15;
+                    top: 56px;
+                    right: -10px;
+                    position: absolute;
+                    width: 250px;
+                    background-color: white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: center;
+                    gap: 15px;
+                    .absolutetrianle {
+                        position: absolute;
+                        right: 30px;
+                        top: -10px;
+                        width: 0;
+                        height: 0;
+                        border-left: 10px solid transparent;
+                        border-right: 10px solid transparent;
+                        border-bottom: 10px solid white;
+                    }
+                    .headersettings {
+                        min-width: 210px;
+                        width: 100%;
+                        display: flex;
+                        align-items: start;
+                        padding: 5px 10px;
+                        gap: 10px;
+                        &:hover {
+                            background: #e7e7e7;
+                            border-radius: 4px;
+                        }
+                    }
+                    .headerexit {
+                        width: 100%;
+                        display: flex;
+                        align-items: start;
+                        padding: 5px 10px;
+                        gap: 10px;
+                        &:hover {
+                            background: #e7e7e7;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.up {
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+.down {
+    transform: rotate(0deg);
+    transition: 0.5s;
+}

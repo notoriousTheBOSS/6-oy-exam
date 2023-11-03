@@ -1,0 +1,47 @@
+.userheader {
+    position: fixed;
+    height: 119px;
+    z-index: 10;
+    background: white;
+    top: 0;
+    width: 100%;
+    nav {
+        height: 119px;
+        display: flex;
+        align-items: center;
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .headerlinks {
+                display: flex;
+                align-items: center;
+                gap: 72px;
+                color: #1b2336;
+                font-family: SairaMedium;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 26px; /* 130% */
+                text-transform: capitalize;
+                .headerbutton {
+                    border-radius: 10px;
+                    background: linear-gradient(
+                        102deg,
+                        #083f9b 0%,
+                        #7f56d9 93.39%
+                    );
+                    width: 138px;
+                    height: 60px;
+                    color: #fff;
+                    font-family: SairaMedium;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 22px;
+                    margin-left: 171px;
+                }
+            }
+        }
+    }
+}

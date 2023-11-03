@@ -1,0 +1,166 @@
+.introsection {
+    margin-top: 119px;
+    height: 936px;
+    position: relative;
+    background: linear-gradient(#04016c, #4a16bd);
+
+    &-colapse {
+        position: absolute;
+        top: 340px;
+        left: -138px;
+    }
+    &-vue {
+        z-index: 2;
+        position: absolute;
+        top: 173.39px;
+        right: -96.46px;
+    }
+    &-react {
+        z-index: 2;
+        position: absolute;
+        top: 402px;
+        right: 491px;
+    }
+
+    &-person {
+        z-index: 2;
+        position: absolute;
+        top: 153px;
+        right: 20px;
+        width: 591px;
+        height: 769px;
+        flex-shrink: 0;
+    }
+    &-group {
+        z-index: 2;
+        bottom: -187px;
+        position: absolute;
+        left: 583px;
+    }
+    .blur {
+        width: 740px;
+        height: 692px;
+        flex-shrink: 0;
+        border-radius: 740px;
+        background: #005fff;
+        filter: blur(150px);
+        position: absolute;
+        top: 112px;
+        right: -69px;
+    }
+    .introsectionwrapper {
+        padding-top: 167px;
+        position: relative;
+        &-h2 {
+            color: rgba(255, 255, 255, 0.8);
+            font-family: SairaSemibold;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 20px; /* 111.111% */
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 21px;
+        }
+        &-p {
+            color: #fff;
+            max-width: 1112px;
+            font-family: RowdiesRegular;
+            font-size: 80px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 90px; /* 112.5% */
+            &-span {
+                color: #4be5ca;
+                font-family: RowdiesRegular;
+                font-size: 80px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 90px;
+            }
+        }
+        &-btn {
+            display: flex;
+            width: 194.25px;
+            height: 60px;
+            padding-right: 0px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            border: 2px solid #fff;
+            color: #fff;
+            font-family: SairaSemibold;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 28px; /* 155.556% */
+            letter-spacing: 1px;
+            margin-top: 65px;
+        }
+        &-inputwrapper {
+            border-radius: 7px;
+            background: #fff;
+            width: 489px;
+            height: 70px;
+            padding-left: 35px;
+            padding-right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 79px;
+            &-input {
+                width: 100%;
+                color: #4f547b;
+                font-family: SairaRegular;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                outline: none;
+                border: none;
+                ::placeholder {
+                    outline: none;
+                    border: none;
+                    color: #4f547b;
+                    font-family: SairaRegular;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+            &-btn {
+                border-radius: 10px;
+                background: linear-gradient(96deg, #3023b2 1%, #7f56d9 100.05%);
+                display: flex;
+                align-items: center;
+                max-width: 142.03px;
+                width: 100%;
+                height: 49.66px;
+                justify-content: center;
+                gap: 12px;
+                color: #fff;
+                font-family: InterMedium;
+                font-size: 15px;
+                line-height: 28.8px;
+                outline-offset: none;
+            }
+        }
+    }
+}
+.introsectionbottom {
+    background: linear-gradient(
+        180deg,
+        #084fc7 0%,
+        rgba(8, 79, 199, 0) 172.16%
+    );
+    position: relative;
+    z-index: 3;
+    &-wrapper {
+        padding: 0 37px 0 92px;
+        height: 169px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

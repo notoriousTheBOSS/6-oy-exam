@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: SairaMedium;
+}
+
+.container {
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+/* GILROY FONT */
+
+@font-face {
+  font-family: GilroyRegular;
+  font-weight: 400;
+  src: url(./assets/fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+  font-family: GilroyMedium;
+  font-weight: 500;
+  src: url(./assets/fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: GilroySemibold;
+  font-weight: 600;
+  src: url(./assets/fonts/Gilroy-Semibold.ttf);
+}
+
+/* INTER FONT */
+
+@font-face {
+  font-family: InterMedium;
+  font-weight: 500;
+  src: url(./assets/fonts/Inter-Medium.ttf);
+}
+
+/* REVALIA FONT */
+
+@font-face {
+  font-family: RevaliaRegular;
+  font-weight: 400;
+  src: url(./assets/fonts/Revalia-Regular.ttf);
+}
+
+/* ROWDIES FONT */
+
+@font-face {
+  font-family: RowdiesRegular;
+  font-weight: 400;
+  src: url(./assets/fonts/Rowdies-Regular.ttf);
+}
+@font-face {
+  font-family: RowdiesBold;
+  font-weight: 700;
+  src: url(./assets/fonts/Rowdies-Bold.ttf);
+}
+
+/* SAIRA FONT */
+
+@font-face {
+  font-family: SairaRegular;
+  font-weight: 400;
+  src: url(./assets/fonts/Saira-Regular.ttf);
+}
+@font-face {
+  font-family: SairaMedium;
+  font-weight: 500;
+  src: url(./assets/fonts/Saira-Medium.ttf);
+}
+@font-face {
+  font-family: SairaSemibold;
+  font-weight: 600;
+  src: url(./assets/fonts/Saira-Semibold.ttf);
+}
+@font-face {
+  font-family: SairaBold;
+  font-weight: 700;
+  src: url(./assets/fonts/Saira-Bold.ttf);
+}

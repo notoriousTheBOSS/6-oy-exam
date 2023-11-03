@@ -1,0 +1,36 @@
+main {
+    background-color: rgb(226 232 240);
+    width: 100%;
+    min-height: 92.5vh;
+    height: auto;
+    padding: 30px;
+}
+aside {
+    position: fixed;
+    top: 70px;
+    left: 0; /* Move the sidebar off-screen */
+    width: 400px;
+    height: 100%;
+    transition: left 0.3s;
+}
+.sidebarOpen {
+    left: -400px;
+}
+.outlet {
+    transition: margin-left 0.3s;
+
+    margin-left: 400px; /* Outlet's default width */
+}
+
+.outletOpen {
+    transition: margin-left 0.3s;
+    margin-left: 0; /* Outlet width when the sidebar is open */
+}
+
+.app {
+    display: flex;
+}
+
+.app .outlet {
+    flex-grow: 1;
+}

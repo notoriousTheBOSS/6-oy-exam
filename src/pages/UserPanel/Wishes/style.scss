@@ -1,0 +1,49 @@
+.wishessection {
+    .wisheswrapper {
+        padding: 87px 0 72px 0;
+        display: flex;
+        gap: 146px;
+        justify-content: space-between;
+        .wishesleft {
+            position: relative;
+            margin-left: 258px;
+        }
+        .wishesright {
+            margin-right: 66px;
+            &-h2 {
+                max-width: 775px;
+                width: 100%;
+                color: #1d1d45;
+                font-family: RowdiesBold;
+                font-size: 45px;
+                line-height: 60px;
+                margin-top: 177px;
+                .h2-span {
+                    color: #2aaa94;
+                }
+            }
+            &-p {
+                max-width: 754px;
+                width: 100%;
+                height: 110px;
+                flex-shrink: 0;
+                color: #4e596b;
+                font-family: SairaRegular;
+                font-size: 18px;
+                line-height: 28px;
+                margin-top: 52px;
+            }
+            &-btn {
+                width: 166px;
+                height: 60px;
+                flex-shrink: 0;
+                border-radius: 10px;
+                background: linear-gradient(95deg, #083f9b 0%, #7f56d9 102.25%);
+                color: #fff;
+                font-family: SairaMedium;
+                font-size: 20px;
+                line-height: 28px;
+            }
+        }
+    }
+}

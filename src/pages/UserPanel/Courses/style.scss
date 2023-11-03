@@ -1,0 +1,116 @@
+.coursessection {
+    background: linear-gradient(
+        0deg,
+        #d9ecff 0%,
+        rgba(240, 243, 255, 0) 127.78%
+    );
+    .coursessectionwrapper {
+        position: relative;
+        padding: 120px 0 103px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        &-h2 {
+            text-align: center;
+            color: #323232;
+            font-family: RowdiesRegular;
+            font-size: 45px;
+            line-height: 70px;
+            letter-spacing: -1.35px;
+            margin-bottom: 48px;
+            .h2-span {
+                color: #2aaa94;
+            }
+        }
+        &-p {
+            margin: 0 auto;
+            color: #4e596b;
+            text-align: center;
+            font-family: SairaRegular;
+            font-size: 25px;
+            line-height: 35px;
+            text-align: center;
+            max-width: 691px;
+            width: 100%;
+        }
+        .coursescardswrapper {
+            margin-top: 94px;
+            display: grid;
+            grid-template-columns: repeat(3, 510px);
+            gap: 44px;
+            .coursescard {
+                border-radius: 20px;
+                background: #fff;
+                width: 510px;
+                height: 571px;
+                overflow: hidden;
+                &-img {
+                    max-width: 516px;
+                    width: 100%;
+                    max-height: 316px;
+                    height: 100%;
+                    object-fit: cover;
+                    border-bottom: 1px solid rgb(189, 189, 189);
+                }
+                .coursescardcontent {
+                    border-radius: 0 0 20px 20px;
+                    width: 512px;
+                    height: 257px;
+                    background: white;
+                    padding: 29px 39px;
+                    .coursescardcontent-span {
+                        color: #4e596b;
+                        font-family: SairaMedium;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 35px; /* 250% */
+                        letter-spacing: -0.42px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    .coursescardcontent-h2 {
+                        color: #324361;
+                        font-family: SairaBold;
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 35px; /* 140% */
+                        letter-spacing: -0.75px;
+                        width: 447px;
+                        height: 71px;
+                        margin-top: 21px;
+                        margin-bottom: 33px;
+                    }
+                    .coursescardcontent-span3 {
+                        color: #5e6775;
+                        font-family: SairaBold;
+                        font-size: 22px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 35px; /* 159.091% */
+                        letter-spacing: -0.66px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+        .coursesbtn {
+            margin-top: 91px;
+            border-radius: 10px;
+            background: linear-gradient(95deg, #083f9b 0%, #7f56d9 102.25%);
+            width: 200px;
+            height: 60px;
+            flex-shrink: 0;
+            color: #fff;
+            text-align: center;
+            font-family: SairaMedium;
+            font-size: 20px;
+            line-height: normal;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.ikromsharifsection {
+    .ikromsharifwrapper {
+        position: relative;
+        margin-bottom: 113px;
+        .ikromsharifvideo {
+            width: 1373px;
+            height: 727px;
+            background: #000;
+            margin: 0 auto;
+            position: relative;
+            border-radius: 68px;
+            background: url(../../../assets/images/2023-09-04/09-31-01.mkv),
+                lightgray 50% / cover no-repeat;
+        }
+        .ikromsharifvideobtn {
+            top: 43px;
+            right: 158px;
+            z-index: 5;
+            position: absolute;
+        }
+    }
+}

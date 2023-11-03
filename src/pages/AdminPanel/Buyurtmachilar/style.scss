@@ -1,0 +1,51 @@
+.customers {
+    padding: 20px;
+    margin-bottom: 30px;
+    .customers-h2 {
+        font-size: 25px;
+        color: #0963eb;
+        font-family: SairaSemiBold;
+    }
+}
+.coursestablewrapper {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    .coursesbutton {
+        background: #0963eb;
+        width: 200px;
+        height: 40px;
+        color: white;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    .coursestable {
+        width: 100%;
+        height: auto;
+        border: 1px solid rgb(221, 219, 219);
+        margin-bottom: 20px;
+        padding: 20px;
+        .checkstudents {
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(255, 193, 21);
+        }
+        .editstudents {
+            width: 40px;
+            height: 40px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(255, 193, 21);
+        }
+    }
+}

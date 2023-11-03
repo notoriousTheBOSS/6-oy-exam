@@ -1,0 +1,31 @@
+.active-link {
+    background: #0963eb;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 12px;
+    gap: 10px;
+    color: white;
+    gap: 10px;
+}
+.non-active-link {
+    display: flex;
+    padding: 12px 20px;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 10px;
+    background: rgb(241 245 249);
+    gap: 10px;
+}
+.navlink-h1 {
+    font-size: 18px;
+    color: #0963eb;
+}
+
+aside {
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}

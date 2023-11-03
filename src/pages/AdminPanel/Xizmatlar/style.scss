@@ -1,0 +1,21 @@
+.services {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .services-h2 {
+        font-size: 25px;
+        color: #0963eb;
+        font-family: SairaSemiBold;
+    }
+    .services-add {
+        width: 40px;
+        height: 40px;
+        background-color: #0963eb;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,100 @@
+footer {
+    background: linear-gradient(95deg, #331da8 0%, #865aef 100.96%);
+    height: 541px;
+    .wrapper {
+        padding-top: 132px;
+        .top {
+            border-bottom: 1px solid #ffffff52;
+            display: flex;
+
+            .left {
+                margin-right: 132px;
+                margin-bottom: 88px;
+                .left-h2 {
+                    color: #fff;
+                    font-family: RevaliaRegular;
+                    font-size: 25px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                    margin-bottom: 95px;
+                }
+                .left-p {
+                    color: #fff;
+                    font-family: SairaRegular;
+                    font-size: 18px;
+                    line-height: 28px;
+                    max-width: 477px;
+                    max-height: 105px;
+                }
+            }
+            .center {
+                max-width: 205px;
+                width: 100%;
+                margin-right: 146px;
+                .center-h2 {
+                    color: #fff;
+                    font-family: RowdiesBold;
+                    font-size: 25px;
+                    line-height: 24px;
+                    margin-bottom: 84px;
+                }
+                .center-links {
+                    display: grid;
+                    grid-template-columns: repeat(2, 102px);
+                    row-gap: 22px;
+                    .center-links-link {
+                        color: #fff;
+                        font-family: SairaMedium;
+                        font-size: 18px;
+                        line-height: 28px;
+                    }
+                }
+            }
+            .right {
+                .right-h2 {
+                    color: #fff;
+                    font-family: RowdiesBold;
+                    font-size: 25px;
+                    line-height: 24px;
+                    margin-bottom: 84px;
+                }
+                .right-spans {
+                    display: grid;
+                    grid-template-columns: repeat(2, 273.292px);
+                    gap: 35px;
+                    column-gap: 22.86px;
+                    a {
+                        display: flex;
+                        align-items: center;
+                        column-gap: 24.7px;
+                        color: #fff;
+                        font-family: SairaMedium;
+                        font-size: 18px;
+                        line-height: 18px; /* 100% */
+                    }
+                }
+            }
+        }
+        .bottom {
+            height: 100%;
+            height: 95px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .bottom-p {
+                color: #fff;
+                font-family: SairaRegular;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px; /* 155.556% */
+            }
+            .bottom-social-networks {
+                display: flex;
+                align-items: center;
+                gap: 31.8px;
+            }
+        }
+    }
+}
